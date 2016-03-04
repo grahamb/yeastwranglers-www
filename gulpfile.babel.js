@@ -103,6 +103,14 @@ gulp.task('scripts', () =>
   // top to bottom, so you want vendor scripts etc on top
   gulp.src([
     'src/assets/javascript/vendor.js',
+    'src/assets/javascript/masonry.pkgd.js',
+    'src/assets/javascript/imagesloaded.pkgd.min.js',
+    'src/assets/javascript/slick.min.js',
+    'src/assets/javascript/jquery.appear.js',
+    'src/assets/javascript/jquery.countTo.js',
+    'src/assets/javascript/jquery.validate.js',
+    'src/assets/javascript/jquery.sequence-min.js',
+    'src/assets/javascript/jquery.easing.1.3.js',
     'src/assets/javascript/main.js'
   ])
     .pipe($.newer('.tmp/assets/javascript/index.js', {dest: '.tmp/assets/javascript', ext: '.js'}))

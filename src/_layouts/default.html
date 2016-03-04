@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html>
 
   {% include head.html %}
 
@@ -7,18 +7,35 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <div id='main' role='main'>
+      {{ content }}
     </div>
 
     {% include footer.html %}
 
-  <!-- JS -->
-  <!-- inject:js -->
-  <script src="/assets/javascript/index.js"></script>
-  <!-- endinject -->
+    <!-- JS -->
+    <!-- inject:js -->
+    <script src="/assets/javascript/index.js"></script>
+    <!-- endinject -->
 
+    <script>
+      // terrificjs bootstrap
+      (function($) {
+        $(document).ready(function() {
+          var $page = $('body');
+          var config = {
+            dependencyPath: {
+              plugin: 'javascripts/'
+            }
+          }
+          var application = new Tc.Application($page, config);
+          application.registerModules();
+          application.start();
+        });
+      })(Tc.$);
+    </script>
+
+    <script id="dsq-count-scr" src="//yeastwranglers.disqus.com/count.js" async></script>
   </body>
+
 </html>

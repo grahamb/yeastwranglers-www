@@ -1,7 +1,8 @@
 /*
 The main SCSS file for everything, yep
 */
-
+@import "foundation";
+@import "font-awesome";
 @import "main";
 @import "base";
 @import "layout";
