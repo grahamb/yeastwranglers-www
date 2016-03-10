@@ -1,21 +1,484 @@
 ---
 layout: default
 regenerate: true
+section_id: home
+slides:
+  - bg: assets/images/stock/hops-1405519.jpg
+    klass: centered-text
+    small_title:
+      klass: bottom-to-top
+      text: You know you want to
+    title:
+      klass: bottom-to-top
+      text: Membership
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: <i class="fa fa-user-plus"></i> Join or Renew
+          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
+  - bg: assets/images/stock/refreshing-beer.jpg
+    klass: centered-text
+    small_title:
+      klass: bottom-to-top
+      text: get social
+    title:
+      klass: bottom-to-top
+      text: Attend a Meeting
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: <i class="fa fa-user-plus"></i> Monthly Meetings
+          link_to: '#monthly-meetings'
+
+meetings:
+  - location: The Vineyard
+    location_url: https://goo.gl/maps/qLCwRUykPZ82
+    month: January 2016
+    topic: New BJCP Guidelines
+    homebrew: true
+  - location: The Vineyard
+    location_url: https://goo.gl/maps/qLCwRUykPZ82
+    month: February 2016
+    topic: New BJCP Guidelines Round 2
+    homebrew: true
+  - location: Tool Shed
+    location_url: https://goo.gl/maps/TuUJmfqAPNQ2
+    month: March 2016
+    topic: Gadget Night - bring your cool brewing gadgets
+    homebrew: false
+  - location: The Vineyard
+    location_url: https://goo.gl/maps/qLCwRUykPZ82
+    month: April 2016
+    topic: "Hops Wheel and IPA Style Guideline | Club Experiment #1 - Yeast Tasting"
+    homebrew: true
+  - location: tbd
+    month: May 2016
+    topic: Homebrewer Gone Pro
+  - location: The Vineyard
+    location_url: https://goo.gl/maps/qLCwRUykPZ82
+    month: June 2016
+    topic: Malt Refresher - bring your hoppy homebrew
+    homebrew: true
+  - location: TBD
+    month: July 2016
+    topic: (no meeting) Summer BBQ
+  - location: TBD
+    month: August 2016
+    topic: (no meeting) Pub Social
+  - location: The Vineyard
+    location_url: https://goo.gl/maps/qLCwRUykPZ82
+    month: September 2016
+    topic: Clarifying Beer, bring your malty homebrew
+    homebrew: true
+  - location: Wild Rose Barracks
+    location_url: https://goo.gl/maps/FRLXJ5ctg4K2
+    month: October 2016
+    topic: Home Casking
+    homebrew: false
+  - location: Village Brewing
+    location_url: https://goo.gl/maps/PNx7eJ1Qe952
+    month: November 2016
+    topic: Recipe Formulation
+    homebrew: false
+  - location: TBD
+    month: November 2016
+    topic: Members only Xmas Party
+
+works:
+  - image: assets/images/@stock/work-1.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: assets/images/@stock/work-2.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: assets/images/@stock/work-3.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: assets/images/@stock/work-4.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: assets/images/@stock/work-5.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: assets/images/@stock/work-6.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: assets/images/@stock/work-7.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: assets/images/@stock/work-8.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+
+
+services:
+  - icon: trophy
+    title: Web Design
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: cogs
+    title: Web Development
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: pagelines
+    title: Branding
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: lock
+    title: Security
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+
+milestones:
+  - icon: folder-open
+    from: 0
+    to: 69
+    title: Projects Completed
+  - icon: coffee
+    from: 0
+    to: 726
+    title: Cups of coffee offered
+  - icon: thumbs-up
+    from: 0
+    to: 59
+    title: Happy clients
+  - icon: file-text
+    from: 0
+    to: 21
+    title: Articles Published
+
 ---
-<div class="home">
-  <h1 class="page-heading"><i class="fa fa-camera-retro"></i> Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class='mod modDefaultSlider'>
+  <div class='sequence' data-autostop='on' data-timeout='0'>
+    <a class='sequence-prev' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <a class='sequence-next' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <ul class='sequence-pagination'>
+      {% for slide in page.slides %}
+        {% if forloop.first %}
+          {% assign class = 'current' %}
+        {% else %}
+          {% assign class = '' %}
+        {% endif %}
+        <li class="{{class}}"></li>
+      {% endfor %}
+    </ul>
+    <ul class='sequence-canvas'>
+      {% for slide in page.slides %}
+        {% if forloop.first %}
+          {% assign style = 'static' %}
+        {% else %}
+          {% assign style = '' %}
+        {% endif %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
+        <li class='frame {{style}} {{ slide.klass }}'>
+          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
+          <div class='small-title {{ slide.small_title.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <h2>{{ slide.small_title.text }}</h2>
+              </div>
+            </div>
+          </div>
+          <div class='title {{ slide.title.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <h2>{{ slide.title.text }}</h2>
+              </div>
+            </div>
+          </div>
+          <div class='buttons-wrapper {{ slide.buttons.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <div class='two spacing'></div>
+                {% for button in slide.buttons.items %}
+                <a class='button {{ button.klass }}' href='{{ button.link_to }}'>{{ button.text }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="four spacing"></div>
+
+<div class="row">
+  <div class="large-12 columns">
+    {% include section-header.html title="About The Club" %}
+    <div class="spacing"></div>
+    <p>
+      The Cowtown Yeast Wranglers are a Calgary-based club of homebrewers and beer enthusiasts. The club was founded in 2007 and has now grown to over 170 active members, making it the largest beer and homebrew club in Canada. Club meetings are held on the first Wednesday of every month at 8:00 pm at various breweries and craft beer locations around town (except in the summer months). Meeting activities vary, but typically they begin with a discussion of club business, followed by technical brewing presentations and discussion, followed by beer evaluation. Meeting locations are announced in our monthly newsletter and on our Facebook page.
+    </p>
+    <p>
+      Currently, our club members include home brewers, pro brewers, certified beer judges,  and beer aficionados of all levels. Our members also include beginning brewers and those interested in beer and the brewing process. Come join our online discussion Forum and meet the gang. We welcome all levels of beer and brewing expertise, and the only prerequisite is that you have an interest and enthusiasm for our favourite beverage -- beer! Cheers!
+    </p>
+  </div>
+</div>
+
+<div class="four spacing"></div>
+<!--
+<div class="row">
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Creative design' desc='Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.' icon_class='fa fa-flask' delay='0' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Creative design' desc='Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.' icon_class='fa fa-paper-plane-o' delay='200' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Creative design' desc='Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.' icon_class='fa fa-tablet' delay='400' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Creative design' desc='Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.' icon_class='fa fa-comments-o' delay='600' shape_class='icon-text-circle' %}
+  </div>
+</div>
+
+<div class="spacing"></div>-->
+
+<div id="monthly-meetings" class='full parallax' style='background-image: url(/assets/images/stock/hops-still-alive-2.jpg); color: #fff;'>
+  <div class="row">
+    <div class="large-12 columns">
+      {% include section-header.html title="Monthly Meetings" color="#fefefe" %}
+      <div class="spacing"></div>
+      {% include meetings.html  %}
+    </div>
+  </div>
+</div>
+
+<!--<div class="full" style="background: #f5f5f5;">
+  <div class="row">
+    <div class="large-12 columns">
+      {% include section-header.html title="Our works" %}
+      <div class="spacing"></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class="three spacing"></div>
+    </div>
+  </div>-->
+
+  <!--<div class="mod modGallery">
+    <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+      {% for work in page.works %}
+      <li class="{{ work.klass }}">
+        <a href='{{ work.link_to }}'>
+          <img alt="" src="{{ work.image }}" />
+          <div class='overlay'>
+            <div class='thumb-info'>
+              <h3>{{ work.title }}</h3>
+              <p>{{ work.desc }}</p>
+            </div>
+          </div>
+        </a>
       </li>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
+  </div>
+</div>-->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "feed.xml" }}">via RSS</a></p>
+<div class='full'>
+  <div class='row'>
+    <div class='twelve columns'>
+      <a class="twitter-timeline" href="https://twitter.com/whatchrisdrinks" data-widget-id="707413022847832068">Tweets by @whatchrisdrinks</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+  </div>
+</div>
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our services" %}
+      <div class='spacing'></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class='three spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <img class="fadeinleft" alt="" src="assets/images/@stock/responsive.png" />
+      <div class='three spacing'></div>
+    </div>
+    <div class='medium-6 columns'>
+      {% for service in page.services %}
+      <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+        <div class='icon-text-simple'>
+          <i class='fa fa-{{service.icon}}'></i>
+          <h3>{{service.title}}</h3>
+          <p>{{service.desc}}</p>
+        </div>
+        <div class='two spacing'></div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>
+
+
+<div class='full parallax' style='background-image: url(assets/images/@stock/milestone-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Parallax effect" color="#fff" %}
+      <div class='spacing'></div>
+      <p class='centered-text' style='color: #ccc;'>
+        Dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    {% for milestone in page.milestones %}
+    <div class='medium-3 large-3 columns'>
+      <div class='mod modMilestone'>
+        <i class='fa fa-{{milestone.icon}}'></i>
+        <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
+        <span>{{milestone.title}}</span>
+        <div class='four spacing'></div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our team" %}
+      <div class='spacing'></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    {% for member in site.data.members %}
+    <div class='small-6 medium-3 large-3 columns'>
+      <div class='mod modTeamMember'>
+        <div class='member'>
+          <img class="avatar" alt="" src="{{ member.avatar }}" />
+          <div class='overlay'>
+            <div class='intro'>
+              <h3>{{member.name}}</h3>
+              <p>{{member.position}}</p>
+              <ul class='socials'>
+                {% for social in member.socials %}
+                <li>
+                  <a href='{{social.link}}'>
+                    <i class='fa fa-{{social.icon}}'></i>
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our recent posts" %}
+      <div class='spacing'></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+
+  <div class='row'>
+    {% for post in site.posts %}
+    {% if forloop.index > 3 %}
+    {% break %}
+    {% endif %}
+
+    <div class='large-4 medium-4 columns'>
+      <div class='mod modBlogPost'>
+        {% for image in post.images %}
+        {% unless forloop.first %}
+        {% break %}
+        {% endunless %}
+        <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
+        {% endfor %}
+        <div class='content'>
+          <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+          <h4><a href="#">{{post.title}}</a></h4>
+          <p>{{post.excerpt}}</p>
+          <!--
+            <div class="tags">
+              {% for cat in post.categories %}
+                <a href="#">{{cat | capitalize}}</a>
+                {% unless forloop.last %}
+                  ,
+                {% endunless %}
+              {% endfor %}
+            </div>
+          -->
+        </div>
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+
+
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <a class='button' href='blog.html'>See more posts</a>
+      </p>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+
+</div>
+
+
+{% include our-customers.html %}
+
+
+<div class='full no-padding' style='background: #fff'>
+  <div class='two spacing'></div>
+  <div class='mod modCallToAction'>
+    <div class='row'>
+      <div class='medium-9 large-9 columns'>
+        <p>Like what you see here? Checkout this theme and start to build your site immediately.</p>
+      </div>
+      <div class='medium-3 large-3 columns'>
+        <a class='button' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Learn more</a>
+      </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
 </div>

@@ -1,6 +1,18 @@
 <div class='links'>
   <h3>Archives</h3>
   <ul>
+  {% for post in page.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+
+<div class='links'>
+  <h3>Archives</h3>
+  <ul>
     <li>
       <a href='#'>December 2011</a>
       <span>(2)</span>

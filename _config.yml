@@ -2,7 +2,7 @@
 # Can be used in your theme by calling 'site.title' and so on
 name: Yeast Wranglers
 description: Yeast Wranglers www
-url: 
+url:
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: src
@@ -15,8 +15,8 @@ exclude: ['assets']
 author:
   name: chrisvdp
   email: chris@chrisvdp.com
-  uri: 
-  bio: 
+  uri:
+  bio:
   twitter: yeastwranglers
 
 # _config.build.yml overwrites these options when you run `gulp build`
@@ -31,7 +31,7 @@ limit_posts: 10
 # Permalink structure and pagination options
 permalink: none
 paginate: 10
-paginate_path: 'page:num'
+paginate_path: '/blog/page:num/'
 excerpt_separator: '<!--more-->'
 
 # Markdown library and options
