@@ -2,6 +2,14 @@
 
 > Yeast Wranglers www
 
+## install
+
+* install Ruby and Node.js
+* clone this repo
+* `gem install bundler`
+* `bundler install`
+* `npm install`
+
 ## To get started
 
 ```sh
