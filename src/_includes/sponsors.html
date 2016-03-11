@@ -67,7 +67,7 @@
           <div class='two spacing'></div>
         </div>
     </div>
-    {% if loopindex == 0 %}
+    {% if loopindex == 0 or forloop.length == forloop.index %}
     </div>
     {% endif %}
   {% endfor %}
