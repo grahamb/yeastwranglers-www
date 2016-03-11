@@ -1,22 +1,14 @@
-- name: Home
-  path: index.html
-  section_id: home
 - name: About
-  path: about.html
+  path: about/
   section_id: about
-- name: Services
-  path: services.html
-  section_id: services
-- name: Portfolio
-  path: portfolio.html
-  section_id: portfolio
+- name: Membership
+  path: membership/
+  section_id: membership
   children:
-    - name: Portfolio
-      path: portfolio.html
-    - name: Portfolio item
-      path: portfolio-item.html
+    - name: join
+      path: join/
 - name: Contact
-  path: contact.html
+  path: contact/
   section_id: contact
 - name: Blog
   path: blog/

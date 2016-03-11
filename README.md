@@ -30,6 +30,18 @@ $ gulp build [--prod]
 $ gulp deploy
 ```
 
+# Content
+
+## Add a page
+
+create a folder for the page name, ie yeastwraglers.com/blog/ create a folder called blog in src. Put a file called index.html in the folder.
+index.html will hold all the content for your page. Add the page to the navigation by adding it to src/_data/nav.yml. This works the same for
+sub folders, add them as children in nav.yml.
+
+## Add a meeting
+
+Meeting are added and re-ordered via the `src/_data/meeting.yml` file.
+
 ## Github
 For more information on how to use your new project, please refer to the [README
 on Github](https://github.com/sondr3/generator-jekyllized).
