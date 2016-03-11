@@ -1,15 +1,17 @@
-- name: About
-  path: about/
-  section_id: about
+# - name: About
+#   path: about/
+#   section_id: about
 - name: Membership
   path: membership/
   section_id: membership
   children:
     - name: join
       path: join/
-- name: Contact
-  path: contact/
-  section_id: contact
 - name: Blog
   path: blog/
   section_id: blog
+- name: Forums
+  path:
+- name: Contact
+  path: contact/
+  section_id: contact

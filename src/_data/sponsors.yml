@@ -1,0 +1,91 @@
+- main:
+  - image: /assets/images/sponsors/WildRoseBrewery.png
+    name: Wild Rose Brewery
+    position: Sponsor
+    socials:
+      - link: http://www.wildrosebrewery.com/
+        icon: link
+      - link: https://twitter.com/WildRoseBrewery
+        icon: twitter
+      - link: https://www.facebook.com/WildRoseBrewery.Taproom
+        icon: facebook
+  - image: /assets/images/sponsors/thevineyard.jpeg
+    name: The Vineyard
+    position: Sponsor
+    socials:
+      - link: http://www.thevineyard.ca/
+        icon: link
+      - link: https://twitter.com/vineyardcalgary
+        icon: twitter
+      - link: https://www.facebook.com/VineyardCalgary/
+        icon: facebook
+
+- supporters:
+  - image: /assets/images/sponsors/brewsters.svg
+    imageclass: 'background-dark'
+    name: Brewsters Brewing Company
+    position: Supporter
+    socials:
+      - link: http://brewsters.ca/
+        icon: link
+      # - link: https://twitter.com/WeAreBrewsters
+      #   icon: twitter
+      # - link: https://www.facebook.com/WeAreBrewsters/
+      #   icon: facebook
+  - image: /assets/images/sponsors/abf-logo.png
+    name: Calgary Beerfest
+    position: Supporter
+    socials:
+      - link: http://calgarybeerfest.com/
+        icon: link
+      # - link: https://twitter.com/calgarybeerfest
+      #   icon: twitter
+  - image: /assets/images/sponsors/Willow-Park-Wine-Spirits.jpg
+    name: Willow Park Wines and Spirits
+    position: Supporter
+    socials:
+      - link: https://www.willowpark.net/
+        icon: link
+  - image: /assets/images/sponsors/rlm.png
+    name: Royal Liquor Merchants
+    position: Supporter
+    socials:
+      - link: http://www.royalliquormerchants.com/
+        icon: link
+  - image: /assets/images/sponsors/HopDawgs.jpg
+    name: Hop Dawgs
+    position: Supporter
+    socials:
+      - link: http://www.hopdawgs.ca/
+        icon: link
+  - image: /assets/images/sponsors/Craft.jpg
+    name: Craft Beer Market
+    position: Supporter
+    socials:
+      - link: http://www.craftbeermarket.ca/
+        icon: link
+  - image: /assets/images/sponsors/5vines.png
+    name: 5 Vines
+    position: Supporter
+    socials:
+      - link: http://5vines.com/
+        icon: link
+  - image: /assets/images/sponsors/Grapes2Glass.jpg
+    name: Grapes to Glass
+    position: Supporter
+    socials:
+      - link: http://grapestoglass.com/
+        icon: link
+  - image: /assets/images/sponsors/1oakvine.jpg
+    name: 'oak &amp; vine'
+    position: Supporter
+    socials:
+      - link: http://www.oakandvine.ca/
+        icon: link
+  - image: /assets/images/sponsors/Midtown_Logo1.jpg
+    name: Midtown
+    position: Supporter
+    socials:
+      - link: http://midtownkitchen.ca/
+        icon: link
+
