@@ -2,8 +2,6 @@
 layout: blog
 section_id: blog
 ---
-
-
 <div class='row'>
   <div class='large-12 columns'>
     <div class='mod modBlogPost big'>
@@ -15,10 +13,12 @@ section_id: blog
       <div class='content'>
         <p class='info'>
           <span>{{page.date | date: "%B %d, %Y" }}</span>
+          {% if page.author %}
           /
           <span>
             by {{page.author}}
           </span>
+          {% endif %}
           /
           <span>
             <a href="#disqus_thread">comments</a>

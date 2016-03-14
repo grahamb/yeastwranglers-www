@@ -7,6 +7,8 @@
   children:
     - name: join
       path: join/
+    - name: newsletter
+      path: newsletter/
 - name: Blog
   path: blog/
   section_id: blog
