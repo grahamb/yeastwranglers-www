@@ -1,7 +1,6 @@
 - main:
   - image: /assets/images/sponsors/WildRoseBrewery.png
     name: Wild Rose Brewery
-    position: Sponsor
     socials:
       - link: http://www.wildrosebrewery.com/
         icon: link
@@ -11,7 +10,7 @@
         icon: facebook
   - image: /assets/images/sponsors/thevineyard.jpeg
     name: The Vineyard
-    position: Sponsor
+    benefit: 10% discount for brewing supplies
     socials:
       - link: http://www.thevineyard.ca/
         icon: link
@@ -19,12 +18,10 @@
         icon: twitter
       - link: https://www.facebook.com/VineyardCalgary/
         icon: facebook
-
 - supporters:
   - image: /assets/images/sponsors/brewsters.svg
     imageclass: 'background-dark'
     name: Brewsters Brewing Company
-    position: Supporter
     socials:
       - link: http://brewsters.ca/
         icon: link
@@ -34,7 +31,6 @@
       #   icon: facebook
   - image: /assets/images/sponsors/abf-logo.png
     name: Calgary Beerfest
-    position: Supporter
     socials:
       - link: http://calgarybeerfest.com/
         icon: link
@@ -42,50 +38,56 @@
       #   icon: twitter
   - image: /assets/images/sponsors/Willow-Park-Wine-Spirits.jpg
     name: Willow Park Wines and Spirits
-    position: Supporter
+    benefit: 10% discount on beer purchases
     socials:
       - link: https://www.willowpark.net/
         icon: link
   - image: /assets/images/sponsors/rlm.png
     name: Royal Liquor Merchants
-    position: Supporter
+    benefit: 10% discount for beer purchases at Haysboro's Royal Liquor Merchants
     socials:
       - link: http://www.royalliquormerchants.com/
         icon: link
   - image: /assets/images/sponsors/HopDawgs.jpg
     name: Hop Dawgs
-    position: Supporter
+    benefit: 6% off regularly priced supplies
     socials:
       - link: http://www.hopdawgs.ca/
         icon: link
   - image: /assets/images/sponsors/Craft.jpg
     name: Craft Beer Market
-    position: Supporter
+    benefit: Special pub discounts for members
     socials:
       - link: http://www.craftbeermarket.ca/
         icon: link
   - image: /assets/images/sponsors/5vines.png
     name: 5 Vines
-    position: Supporter
+    benefit: 10% discount for purchases
     socials:
       - link: http://5vines.com/
         icon: link
   - image: /assets/images/sponsors/Grapes2Glass.jpg
     name: Grapes to Glass
-    position: Supporter
+    benefit: 10% discount for brewing supplies
     socials:
       - link: http://grapestoglass.com/
         icon: link
   - image: /assets/images/sponsors/1oakvine.jpg
-    name: 'oak &amp; vine'
-    position: Supporter
+    name: 'Oak &amp; Vine'
+    benefit: 10% discount on purchases
     socials:
       - link: http://www.oakandvine.ca/
         icon: link
   - image: /assets/images/sponsors/Midtown_Logo1.jpg
     name: Midtown
-    position: Supporter
+    benefit: 10% discount
     socials:
       - link: http://midtownkitchen.ca/
+        icon: link
+- benefitonly:
+  - name: Great Canadian Beer Festival
+    benefit: Club purchase of tickets
+    socials:
+      - link: http://www.gcbf.com/
         icon: link
 
