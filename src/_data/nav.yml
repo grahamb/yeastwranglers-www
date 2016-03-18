@@ -9,11 +9,14 @@
       path: join/
     - name: newsletter
       path: newsletter/
+    - name: resources
+      path: resources/
 - name: Blog
   path: blog/
   section_id: blog
 - name: Forums
   path:
+  section_id: forums
 - name: Contact
   path: contact/
   section_id: contact

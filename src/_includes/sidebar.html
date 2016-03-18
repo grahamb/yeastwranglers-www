@@ -1,145 +1,46 @@
 <div class='links'>
-  <h3>Archives</h3>
+  <h3>Recent Posts</h3>
   <ul>
   {% for post in site.posts %}
     <li>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </li>
   {% endfor %}
   </ul>
 </div>
 
-<ul class="tag-box inline">
-{% assign tags_list = site.categories %}
-  {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %}
-      <li><a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a></li>
-    {% endfor %}
-  {% else %}
-    {% for tag in tags_list %}
-      <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
-    {% endfor %}
-  {% endif %}
-{% assign tags_list = nil %}
-</ul>
-
-{% for tag in site.categories %}
-  <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
-  <ul class="post-list">
-    {% assign pages_list = tag[1] %}
-    {% for post in pages_list %}
-      {% if post.title != null %}
-      {% if group == null or group == post.group %}
-      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
-      {% endif %}
-      {% endif %}
-    {% endfor %}
-    {% assign pages_list = nil %}
-    {% assign group = nil %}
-  </ul>
-{% endfor %}
-
 <div class='links'>
   <h3>Archives</h3>
   <ul>
-    <li>
-      <a href='#'>December 2011</a>
-      <span>(2)</span>
-    </li>
-    <li>
-      <a href='#'>November 2011</a>
-      <span>(4)</span>
-    </li>
-    <li>
-      <a href='#'>October 2011</a>
-      <span>(1)</span>
-    </li>
-    <li>
-      <a href='#'>September 2011</a>
-      <span>(3)</span>
-    </li>
-    <li>
-      <a href='#'>July 2011</a>
-      <span>(5)</span>
-    </li>
-    <li>
-      <a href='#'>June 2011</a>
-      <span>(3)</span>
-    </li>
-    <li>
-      <a href='#'>May 2011</a>
-      <span>(6)</span>
-    </li>
-    <li>
-      <a href='#'>April 2011</a>
-      <span>(1)</span>
-    </li>
+  {% assign tags_list = site.categories %}
+    {% if tags_list.first[0] == null %}
+      {% for tag in tags_list %}
+        <li><a href="#{{ tag }}">{{ tag | capitalize }}</a> <span>({{ site.tags[tag].size }})</span></li>
+      {% endfor %}
+    {% else %}
+      {% for tag in tags_list %}
+        <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }}</a> <span>({{ tag[1].size }})</span></li>
+      {% endfor %}
+    {% endif %}
+  {% assign tags_list = nil %}
   </ul>
 </div>
+
 <div class='links'>
   <h3>Categories</h3>
-  <ul>
-    <li>
-      <a href='#'>Web Design</a>
-    </li>
-    <li>
-      <a href='#'>Web Development</a>
-    </li>
-    <li>
-      <a href='#'>Illustrations</a>
-    </li>
-    <li>
-      <a href='#'>Photography</a>
-    </li>
-    <li>
-      <a href='#'>Logo Design</a>
-    </li>
-    <li>
-      <a href='#'>Tricks &amp; Tips</a>
-    </li>
-  </ul>
+  {% for tag in site.categories %}
+    <p id="{{ tag[0] }}">{{ tag[0] | capitalize }}</p>
+    <ul class="post-list">
+      {% assign pages_list = tag[1] %}
+      {% for post in pages_list %}
+        {% if post.title != null %}
+        {% if group == null or group == post.group %}
+        <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% assign pages_list = nil %}
+      {% assign group = nil %}
+    </ul>
+  {% endfor %}
 </div>
-<div class='links'>
-  <h3>Recent Posts</h3>
-  <ul>
-    <li>
-      <a href='#'>Great quality means a lot to us</a>
-    </li>
-    <li>
-      <a href='#'>Why you should learn CSS 3</a>
-    </li>
-    <li>
-      <a href='#'>5 steps to a more successful WordPress theme</a>
-    </li>
-    <li>
-      <a href='#'>HTML 5 in real world</a>
-    </li>
-    <li>
-      <a href='#'>Javascript debugging</a>
-    </li>
-  </ul>
-</div>
-<!-- <div class='links'>
-  <h3>Tags</h3>
-  <ul>
-    <li>
-      <a href='#'>Logo</a>
-    </li>
-    <li>
-      <a href='#'>Development</a>
-    </li>
-    <li>
-      <a href='#'>Design</a>
-    </li>
-    <li>
-      <a href='#'>Photography</a>
-    </li>
-    <li>
-      <a href='#'>News</a>
-    </li>
-    <li>
-      <a href='#'>Javascript</a>
-    </li>
-  </ul>
-</div> -->
