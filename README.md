@@ -8,7 +8,8 @@
 * clone this repo
 * `gem install bundler`
 * `bundler install`
-* `npm install`
+* `npm install -g yarn`
+* `yarn`
 
 ## To get started
 
