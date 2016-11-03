@@ -3,7 +3,6 @@ layout: post
 title:  "#RoundUp2016 in tweets"
 date:   2016-03-14 08:19:12
 author: Chris van der Ploeg
-categories: roundup twitter
 excerpt: "A timeline of the 2016 Cowtown Yeast Wranglers #RoundUp2016 as told by the tweets that went over the run up to judging, judging and the amazing gala held at National on 8th."
 ---
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
