@@ -24,12 +24,10 @@ browser. Neato. If you want to run it with production settings, just add
 ## Usage
 
 ```sh
-$ gulp build [--prod]
+$ gulp cleanbuildcopy --prod
 ```
 
-```sh
-$ gulp deploy
-```
+This will create a folder called `dist/` that has a production ready version of the site, just upload it.
 
 # Content
 

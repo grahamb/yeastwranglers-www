@@ -32,6 +32,10 @@
                 {% endfor %}
               </ul>
             </li>
+          {% elsif item.external %}
+            <li>
+              <a href="{{ item.path }}">{{ item.name }}</a>
+            </li>
           {% else %}
             <li class="{{active_class}}">
               <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>

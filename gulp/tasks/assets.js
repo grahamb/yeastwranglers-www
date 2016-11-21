@@ -41,12 +41,10 @@ gulp.task('scripts', () =>
     .pipe(size({
       showFiles: true
     }))
-    .pipe(when(argv.prod, rename({suffix: '.min'})))
     .pipe(when(argv.prod, when('*.js', uglify({preserveComments: 'some'}))))
     .pipe(when(argv.prod, size({
       showFiles: true
     })))
-    .pipe(when(argv.prod, rev()))
     .pipe(when(!argv.prod, sourcemaps.write('.')))
     .pipe(when(argv.prod, gulp.dest('.tmp/assets/javascript')))
     .pipe(when(argv.prod, when('*.js', gzip({append: true}))))
@@ -73,12 +71,10 @@ gulp.task('styles', () =>
     .pipe(size({
       showFiles: true
     }))
-    .pipe(when(argv.prod, rename({suffix: '.min'})))
     .pipe(when(argv.prod, when('*.css', cssnano({autoprefixer: false}))))
     .pipe(when(argv.prod, size({
       showFiles: true
     })))
-    .pipe(when(argv.prod, rev()))
     .pipe(when(!argv.prod, sourcemaps.write('.')))
     .pipe(when(argv.prod, gulp.dest('.tmp/assets/stylesheets')))
     .pipe(when(argv.prod, when('*.css', gzip({append: true}))))

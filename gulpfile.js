@@ -34,6 +34,8 @@ gulp.task('rebuild', gulp.series('clean', 'clean:images'));
 // 'gulp check' -- checks your site configuration for errors and lint your JS
 gulp.task('check', gulp.series('site:check'));
 
+gulp.task('cleanbuildcopy', gulp.series('build', 'copy:assets'));
+
 // 'gulp' -- cleans your assets and gzipped files, creates your assets and
 // injects them into the templates, then builds your site, copied the assets
 // into their directory and serves the site
