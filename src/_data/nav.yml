@@ -15,9 +15,8 @@
   path: blog/
   section_id: blog
 - name: Forums
-  path: https://muut.com/cowtownyeastwranglers
+  path: forums
   section_id: forums
-  external: true
 - name: Contact
   path: contact/
   section_id: contact
