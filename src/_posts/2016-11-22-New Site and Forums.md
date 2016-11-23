@@ -18,4 +18,4 @@ You served us well.
 
 We'd love any feedback/complaints about the new setup in the comments below. 
 
-Go check out the <a href='https://muut.com/cowtownyeastwranglers/'>forums</a>
+Go check out the <a href='http://www.yeastwranglers.ca/forums/'>forums</a>
