@@ -2,6 +2,7 @@
 layout: post
 title: 7th Annual Cowtown Roundup
 date: '2015-01-20T00:00:00+00:00'
+category: "Roundup"
 ---
 Registration for the [2015 Cowtown Roundup](http://www.yeastwranglers.ca/Competitions/Roundup15/tabid/432/Default.aspx) is now open. For the uninitiated, the Roundup is the 7th annual homebrew competition put on by the Yeast WRanglers. It's a great opportunity to get an unbiased opinion on your beer and how you can improve it. There is also the chance to win great prizes and, more importantly, big shiny medals
 

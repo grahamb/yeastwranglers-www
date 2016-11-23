@@ -4,6 +4,7 @@ title:  "New Site and Forums"
 date:   2016-03-14 08:19:12
 author: Chris van der Ploeg
 excerpt: "In case you didn't notice"
+category: "New Site"
 ---
 
 It seems like I have been working on the new site forever now, but it felt like time to push it out

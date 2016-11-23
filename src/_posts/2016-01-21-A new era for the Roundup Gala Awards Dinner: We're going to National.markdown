@@ -2,6 +2,7 @@
 layout: post
 title: 'A new era for the Roundup Gala Awards Dinner: We''re going to National'
 date: '2016-01-21T00:00:00+00:00'
+category: "Roundup"
 ---
 We&rsquo;re taking our annual Homebrew Roundup Gala Dinner up a notch this year and holding it at The National Beer Hall on 8<sup>th</sup>.
 
