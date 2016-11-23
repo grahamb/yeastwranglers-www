@@ -20,9 +20,33 @@ section_id: join
 <div id="join" class='full'>
   <div class='row'>
     <div class='tweleve columns'>
-      <p class='text-center lead'>
-        When you fill out the form below, make sure you scroll back to the top and follow the PayPal link.
-      </p>
+      <div class="alert-box warning text-center">
+        Please pay via PayPal <strong>AND</strong> fill out the form below.
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-4 medium-centered columns">
+      <div class="panel text-center">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="AAEL3YD6SWT2Y">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Membership type">Membership type</td></tr><tr><td><select name="os0">
+            <option value="2017 Single Membership">2017 Single Membership $30.00 CAD</option>
+            <option value="2016 Family Membership">2016 Family Membership $50.00 CAD</option>
+        </select> </td></tr>
+        </table>
+        <input type="hidden" name="currency_code" value="CAD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='medium-8 medium-centered text-center columns'>
+      <p><strong>AND</strong></p>
     </div>
   </div>
   <div class='row'>
