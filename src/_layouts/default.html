@@ -35,6 +35,23 @@
       })(Tc.$);
     </script>
 
+    <script src="//cdn.muut.com/1/moot.min.js"></script>
+    <script>
+      muut('format', function(body, post) {
+        var $ = jQuery;
+
+        $('.m-image', body).wrapAll("<div class='image-wrapper' />")
+        $('.m-image', body).each(function() {
+          var el = $(this),
+              src = el.attr('href');
+          $.each(post.uploads || [], function(i, file) {
+            if (file.altname.toLowerCase() == src.toLowerCase()) src = file.data
+          });
+          el.ac('thumb').html('<img src="' + src + '">').addClass('image-preview-wrapper');
+        });
+      });
+    </script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

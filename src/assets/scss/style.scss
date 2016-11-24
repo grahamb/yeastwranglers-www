@@ -8,6 +8,21 @@ The main SCSS file for everything, yep
 @import "layout";
 @import "syntax-highlighting";
 
+.m-image:before {
+    position: relative;
+    top: 10px;
+    left: 2px;
+}
+
+.m-image.m-thumb,.image-preview-wrapper {
+  margin: 3px;
+  border: solid 4px #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  line-height: 0;
+  max-width: 48%;
+}
+
 /*!
  * jQuery UI CSS Framework 1.10.3
  * http://jqueryui.com
