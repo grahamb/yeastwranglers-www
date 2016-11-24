@@ -2538,6 +2538,11 @@ form input.error, form textarea.error {
   transition-duration: 1s;
 }
 .modDefaultSlider .sequence .title h2 {
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
   font-size: 5.14286rem;
   line-height: 5.14286rem;
   display: inline-block;
@@ -2548,6 +2553,11 @@ form input.error, form textarea.error {
   text-transform: uppercase;
 }
 .modDefaultSlider .sequence .small-title h2 {
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
   font-size: 1.28571rem;
   font-weight: normal;
   color: #fff;
