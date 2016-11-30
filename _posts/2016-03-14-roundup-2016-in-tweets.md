@@ -1,11 +1,16 @@
 ---
+title: "#RoundUp2016 in tweets"
+date: 2016-03-14 08:19:12 Z
+categories:
+- src
+- Roundup
 layout: post
-title:  "#RoundUp2016 in tweets"
-date:   2016-03-14 08:19:12
 author: Chris van der Ploeg
-excerpt: "A timeline of the 2016 Cowtown Yeast Wranglers #RoundUp2016 as told by the tweets that went over the run up to judging, judging and the amazing gala held at National on 8th."
-category: "Roundup"
+excerpt: 'A timeline of the 2016 Cowtown Yeast Wranglers #RoundUp2016 as told by the
+  tweets that went over the run up to judging, judging and the amazing gala held at
+  National on 8th.'
 ---
+
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Prizes are starting to trickle in for <a href="https://twitter.com/hashtag/RoundUp2016?src=hash">#RoundUp2016</a>. <a href="https://twitter.com/rahr_malt">@rahr_malt</a> first in with a Swag Bag full of goodies for one skillful brewer</p>&mdash; Yeast WRanglers (@yeastwranglers) <a href="https://twitter.com/yeastwranglers/status/695710416572297216">February 5, 2016</a></blockquote>

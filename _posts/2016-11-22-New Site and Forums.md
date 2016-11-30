@@ -1,10 +1,12 @@
 ---
+title: New Site and Forums
+date: 2016-11-22 08:19:12 Z
+categories:
+- src
+- New Site
 layout: post
-title:  "New Site and Forums"
-date:   2016-11-22 08:19:12
 author: Chris van der Ploeg
-excerpt: "In case you didn't notice"
-category: "New Site"
+excerpt: In case you didn't notice
 ---
 
 It seems like I have been working on the new site forever now, but it felt like time to push it out

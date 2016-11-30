@@ -1,9 +1,12 @@
 ---
-layout: post
 title: 'A new era for the Roundup Gala Awards Dinner: We''re going to National'
-date: '2016-01-21T00:00:00+00:00'
-category: "Roundup"
+date: 2016-01-21 00:00:00 Z
+categories:
+- src
+- Roundup
+layout: post
 ---
+
 We&rsquo;re taking our annual Homebrew Roundup Gala Dinner up a notch this year and holding it at The National Beer Hall on 8<sup>th</sup>.
 
 We&rsquo;re still working out some of the finer details&#44; but can tell you now that __tickets will be only $50__ for an amazing four-course meal (possibly with beer pairings not only suggested&#44; but supplied &ndash; that&rsquo;s one of the details being working on!).
