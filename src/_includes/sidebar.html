@@ -11,7 +11,8 @@
 
 <div class='links'>
   <h3>Categories</h3>
-  {% for tag in site.categories %}
+  {% for tag in site.categories | where_exp:"item",
+"item != Old" %}
     <p id="{{ tag[0] }}">{{ tag[0] | capitalize }}</p>
     <ul class="post-list">
       {% assign pages_list = tag[1] %}
