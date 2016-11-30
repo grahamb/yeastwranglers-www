@@ -1,14 +1,10 @@
 ---
-title: December 2016 Meeting at Tool Shed
-date: 2016-11-30 08:19:12 Z
-categories:
-- src
-- Monthly Meetings
 layout: post
+title:  "December 2016 Meeting at Tool Shed"
+date:   2016-11-30 08:19:12
 author: Chris van der Ploeg
-excerpt: We will be having the annual Yeast Wranglers Christmas party at Tool Shed
-  Brewery this year. The fine folks at the Brewery have agreed to make us a cask for
-  the event, and also have food and much merriment.
+category: "Monthly Meetings"
+excerpt: We will be having the annual Yeast Wranglers Christmas party at Tool Shed Brewery this year. The fine folks at the Brewery have agreed to make us a cask for the event, and also have food and much merriment.
 ---
 
 We will be having the annual Yeast Wranglers Christmas party at [Tool Shed Brewery](https://goo.gl/maps/TuUJmfqAPNQ2) this year.

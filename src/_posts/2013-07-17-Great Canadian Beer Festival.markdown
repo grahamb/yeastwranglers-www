@@ -1,8 +1,7 @@
 ---
-title: Great Canadian Beer Festival
-date: 2013-07-17 00:00:00 Z
 layout: post
-category: Old
+title: Great Canadian Beer Festival
+date: '2013-07-17T00:00:00+00:00'
+category: "Old"
 ---
-
 <h1 style="display: block; font-family: Helvetica; font-size: 40px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: -1px; margin: 0px; color: #606060 ! important; text-align: left;"> </h1><h3 style="display: block; font-family: Helvetica; font-size: 18px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: -0.5px; margin: 0px; color: #606060 ! important; text-align: left;"> Ticket presale event for paid members.</h3><p style="color: #606060; font-family: Helvetica; font-size: 15px; line-height: 150%; text-align: left;"> One of the member benefits of being a Yeast WRangler is the chance to pre-purchase tickets to the Great Canadian Beer Festival in Victoria&#44; BC. This years event will be on September 6 and 7.&nbsp; <a href="http://www.gcbf.com/" target="_self" style="color: #6dc6dd; font-weight: normal; text-decoration: underline; word-wrap: break-word ! important;">Click here</a> for more information on the festival. Fill out the form before July 25 and make sure you pay for your tickets before the end of the month. <a href="https://docs.google.com/spreadsheet/viewform?formkey=dHc5MG1qbWpyTlUyVFZfd181QU1FdHc6MA#gid=0" target="_self" style="color: #6dc6dd; font-weight: normal; text-decoration: underline; word-wrap: break-word ! important;">Click here to order your tickets</a><br /><br />You will be contacted when the tickets arrive in Calgary around mid August and they will be available for pick up at The Vineyard.</p>
