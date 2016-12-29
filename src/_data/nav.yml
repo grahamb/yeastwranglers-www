@@ -5,7 +5,7 @@
   path: membership/
   section_id: membership
   children:
-    - name: join
+    - name: join or renew
       path: join/
     - name: newsletter
       path: newsletter/
