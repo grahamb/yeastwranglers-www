@@ -1,53 +1,38 @@
 - location: The Vineyard
   location_url: https://goo.gl/maps/qLCwRUykPZ82
-  month: January 2016
-  topic: New BJCP Guidelines
+  month: January 4th 2017
+  topic: Brewing for competition
   homebrew: true
-- location: The Vineyard
-  location_url: https://goo.gl/maps/qLCwRUykPZ82
-  month: February 2016
-  topic: New BJCP Guidelines Round 2
+- month: February 1st 2017
+  location: TBD
   homebrew: true
-- location: Tool Shed
-  location_url: https://goo.gl/maps/TuUJmfqAPNQ2
-  month: March 2016
-  topic: Gadget Night - bring your cool brewing gadgets
-  homebrew: false
-- location: The Vineyard
-  location_url: https://goo.gl/maps/qLCwRUykPZ82
-  month: April 2016
-  topic: "Hops Wheel and IPA Style Guideline | Club Experiment #1 - Yeast Tasting"
+- month: March 1st 2017
+  location: TBD
   homebrew: true
-- location: tbd
-  month: May 2016
-  topic: Homebrewer Gone Pro
-- location: The Vineyard
-  location_url: https://goo.gl/maps/qLCwRUykPZ82
-  month: June 2016
-  topic: "Malt Refresher - bring your hoppy homebrew"
+- month: April 5th 2017
+  location: TBD
   homebrew: true
-- location: TBD
-  month: July 2016
+- month: May 3rd 2017
+  location: TBD
+  homebrew: true
+- month: June 7th 2017
+  location: TBD
+  homebrew: true
+- month: July 2017
+  location: TBD
   topic: (no meeting) Summer BBQ
-- location: TBD
-  month: August 2016
+- month: August 2017
+  location: TBD
   topic: (no meeting) Pub Social
-- location: The Vineyard
-  location_url: https://goo.gl/maps/qLCwRUykPZ82
-  month: September 2016
-  topic: "Clarifying Beer, bring your malty homebrew"
+- month: September 6th 2017
+  location: TBD
   homebrew: true
-- location: The Vineyard
-  location_url: https://goo.gl/maps/qLCwRUykPZ82
-  month: October 2016
-  topic: Home Casking
-  homebrew: false
-- location: Wild Rose Barracks
-  location_url: https://goo.gl/maps/FRLXJ5ctg4K2
-  month: November 2016
-  topic: Recipe Formulation
-  homebrew: false
-- location: Tool Shed Brewing
-  location_url: https://goo.gl/maps/TuUJmfqAPNQ2
-  month: December 2016
-  topic: <a href='/monthly%20meetings/December-2016-Meeting-at-Tool-Shed.html'>Get the Deatils</a>
+- month: October 4th 2017
+  location: TBD
+  homebrew: true
+- month: November 1st 2017
+  location: TBD
+  homebrew: true
+- month: December 6th 2017
+  location: TBD
+  homebrew: true

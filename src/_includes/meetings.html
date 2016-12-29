@@ -9,7 +9,9 @@
         <div class='icon-text-simple'>
           <i class='fa fa-calendar'></i>
           <h3 style="color:#fefefe;">{{meeting.month}}</h3>
+          {% if meeting.topic %}
           <p>Topic: {{meeting.topic}}</p>
+          {% endif %}
           <p>Location: {% if meeting.location_url%}<a href='{{meeting.location_url}}' target="_blank">{{meeting.location}}</a>{% else %}{{meeting.location}}{% endif %}</p>
           <!--{% if meeting.homebrew != null %}<p class="can-i-bring-homebrew">Can I bring homebrew? {% if meeting.homebrew %}<i class='fa fa-check'></i>{% else %}<i class='fa fa-times'></i>{% endif %}</p>{% endif %}-->
         </div>
