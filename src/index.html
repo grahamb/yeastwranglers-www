@@ -2,60 +2,6 @@
 layout: default
 regenerate: true
 section_id: home
-slides:
-  - bg: assets/images/stock/refreshing-beer.jpg
-    klass: centered-text
-    small_title:
-      klass: bottom-to-top
-      text: It's that time again
-    title:
-      klass: bottom-to-top
-      text: Renewals
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: <i class="fa fa-user-plus"></i> Join or Renew
-          link_to: /membership/join/
-  - bg: assets/images/stock/hops-1405519.jpg
-    klass: centered-text
-    small_title:
-      klass: bottom-to-top
-      text: It's alive
-    title:
-      klass: bottom-to-top
-      text: New Site & Forum
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: Read More
-          link_to: new%20site/New-Site-and-Forums.html
-  - bg: assets/images/stock/cheers.jpg
-    klass: centered-text
-    small_title:
-      klass: bottom-to-top
-      text: get social
-    title:
-      klass: bottom-to-top
-      text: Attend a Meeting
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: <i class="fa fa-user-plus"></i> Monthly Meetings
-          link_to: '#monthly-meetings'
-  - bg: assets/images/stock/bottle-caps.jpg
-    klass: centered-text
-    small_title:
-      klass: bottom-to-top
-      text: start a conversation
-    title:
-      klass: bottom-to-top
-      text: Join the forum
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: <i class="fa fa-comments"></i> Forum
-          link_to: '/forums/'
-
 ---
 
 <div class='mod modDefaultSlider'>
@@ -67,7 +13,7 @@ slides:
       <span></span>
     </a>
     <ul class='sequence-pagination'>
-      {% for slide in page.slides %}
+      {% for slide in site.data.slides %}
         {% if forloop.first %}
           {% assign class = 'current' %}
         {% else %}
@@ -77,35 +23,35 @@ slides:
       {% endfor %}
     </ul>
     <ul class='sequence-canvas'>
-      {% for slide in page.slides %}
+      {% for slide in site.data.slides %}
         {% if forloop.first %}
           {% assign style = 'static' %}
         {% else %}
           {% assign style = '' %}
         {% endif %}
 
-        <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
-          <div class='small-title {{ slide.small_title.klass }}'>
+        <li class='frame {{style}} centered-text'>
+          <div class='bg' style='background-image: url({{ slide.background}});'></div>
+          <div class='small-title bottom-to-top'>
             <div class='row'>
               <div class='large-12 columns'>
-                <h2>{{ slide.small_title.text }}</h2>
+                <h2>{{ slide.title.sub }}</h2>
               </div>
             </div>
           </div>
-          <div class='title {{ slide.title.klass }}'>
+          <div class='title bottom-to-top'>
             <div class='row'>
               <div class='large-12 columns'>
-                <h2>{{ slide.title.text }}</h2>
+                <h2>{{ slide.title.main }}</h2>
               </div>
             </div>
           </div>
-          <div class='buttons-wrapper {{ slide.buttons.klass }}'>
+          <div class='buttons-wrapper bottom-to-top'>
             <div class='row'>
               <div class='large-12 columns'>
                 <div class='two spacing'></div>
                 {% for button in slide.buttons.items %}
-                <a class='button {{ button.klass }}' href='{{ button.link_to }}'>{{ button.text }}</a>
+                <a class='button' href='{{ button.link_to }}'>{{ button.text }}</a>
                 {% endfor %}
               </div>
             </div>

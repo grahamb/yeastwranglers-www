@@ -1,0 +1,33 @@
+
+- background: assets/images/stock/refreshing-beer.jpg
+  title:
+    main: Renewals
+    sub: It's that time again
+  buttons:
+    items:
+      - text: <i class="fa fa-user-plus"></i> Join or Renew
+        link_to: /membership/join/
+- background: assets/images/stock/hops-1405519.jpg
+  title:
+    main: New Site & Forum
+    sub: It's alive
+  buttons:
+    items:
+      - text: Read More
+        link_to: new%20site/New-Site-and-Forums.html
+- background: assets/images/stock/cheers.jpg
+  title:
+    main: Attend a Meeting
+    sub: get social
+  buttons:
+    items:
+      - text: <i class="fa fa-user-plus"></i> Monthly Meetings
+        link_to: '#monthly-meetings'
+- background: assets/images/stock/bottle-caps.jpg
+  title:
+    main: Join the forum
+    sub: start a conversation
+  buttons:
+    items:
+      - text: <i class="fa fa-comments"></i> Forum
+        link_to: '/forums/'
