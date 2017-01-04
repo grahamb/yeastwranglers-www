@@ -22,7 +22,7 @@
   buttons:
     items:
       - text: <i class="fa fa-user-plus"></i> Monthly Meetings
-        link_to: '#monthly-meetings'
+        link_to: '/meetings/'
 - background: assets/images/stock/bottle-caps.jpg
   title:
     main: Join the forum

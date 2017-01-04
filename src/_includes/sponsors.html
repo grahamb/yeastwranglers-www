@@ -1,11 +1,4 @@
 
-<div class='row'>
-  <div class='large-12 columns'>
-    {% include section-header.html title="Our Sponsors" %}
-    <div class='spacing'></div>
-  </div>
-</div>
-
 {% for sponsors in site.data.sponsors %}
   {% for sponsor in sponsors.main %}
     {% assign loopindex = forloop.index | modulo: 2 %}

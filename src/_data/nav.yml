@@ -11,6 +11,8 @@
       path: newsletter/
     - name: resources
       path: resources/
+    - name: sponsors
+      path: sponsors/
 - name: Meetings
   path: meetings/
   section_id: meetings
