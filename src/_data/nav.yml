@@ -13,9 +13,9 @@
       path: resources/
     - name: sponsors
       path: sponsors/
-- name: Meetings
-  path: meetings/
-  section_id: meetings
+- name: Calendar
+  path: calendar/
+  section_id: calendar
 - name: Blog
   path: blog/
   section_id: blog

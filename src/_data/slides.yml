@@ -17,12 +17,12 @@
         link_to: new%20site/New-Site-and-Forums.html
 - background: assets/images/stock/cheers.jpg
   title:
-    main: Attend a Meeting
+    main: Check the Calendar
     sub: get social
   buttons:
     items:
       - text: <i class="fa fa-user-plus"></i> Monthly Meetings
-        link_to: '/meetings/'
+        link_to: '/calendar/'
 - background: assets/images/stock/bottle-caps.jpg
   title:
     main: Join the forum

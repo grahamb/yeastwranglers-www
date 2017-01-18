@@ -36,7 +36,7 @@ indicates you are starting a new object.
 ### Build for Production
 
 ```sh
-$ gulp cleanbuildcopy --prod
+$ gulp build --prod
 ```
 
 This will create a folder called `dist/` that has a production ready version of the site.
