@@ -1,20 +1,20 @@
 
+- background: assets/images/stock/hops-1405519.jpg
+  title:
+    main: The 9th Annual 2017 Homebrew Roundup
+    sub: Get that feedback
+  buttons:
+    items:
+      - text: Read More
+        link_to: /roundup/The-Cowtown-Yeast-Wranglers-homebrew-club-is-proud-to-present-The-9th-annual-2017-Homebrew-Roundup.html
 - background: assets/images/stock/refreshing-beer.jpg
   title:
-    main: Renewals
-    sub: It's that time again
+    main: Support the Club
+    sub: Do it
   buttons:
     items:
       - text: <i class="fa fa-user-plus"></i> Join or Renew
         link_to: /membership/join/
-- background: assets/images/stock/hops-1405519.jpg
-  title:
-    main: New Site & Forum
-    sub: It's alive
-  buttons:
-    items:
-      - text: Read More
-        link_to: new%20site/New-Site-and-Forums.html
 - background: assets/images/stock/cheers.jpg
   title:
     main: Check the Calendar
