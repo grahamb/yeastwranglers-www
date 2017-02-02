@@ -5,6 +5,8 @@ jQuery.extend({
   }
 });
 
+var myLazyLoad = new LazyLoad();
+
 (function(removeClass) {
   jQuery.fn.removeClass = function(value) {
     if(value && typeof value.test === 'function') {
