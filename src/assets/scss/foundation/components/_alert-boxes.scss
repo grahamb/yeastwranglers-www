@@ -123,6 +123,7 @@ $alert-transition-ease: ease-out !default;
       &.warning { @include alert-style($warning-color); }
       &.info { @include alert-style($info-color); }
       &.alert-close { opacity: 0}
+      a { color: #ffffff; text-decoration: underline; }
     }
   }
 }

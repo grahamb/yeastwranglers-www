@@ -16,6 +16,9 @@
           {% if meeting.type %}
           <p>Type: {{meeting.type}}</p>
           {% endif %}
+          {% if meeting.tickets %}
+          <p><a href='{{meeting.tickets}}' target='_blank'>Tickets</a> (Tickets are required for this event.)</p>
+          {% endif %}
           <!--{% if meeting.homebrew != null %}<p class="can-i-bring-homebrew">Can I bring homebrew? {% if meeting.homebrew %}<i class='fa fa-check'></i>{% else %}<i class='fa fa-times'></i>{% endif %}</p>{% endif %}-->
         </div>
       </div>
