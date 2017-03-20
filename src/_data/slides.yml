@@ -2,19 +2,19 @@
 - background: assets/images/stock/hops-1405519.jpg
   title:
     main: The 9th Annual 2017 Homebrew Roundup
-    sub: Get that feedback
+    sub: Volunteer
   buttons:
     items:
-      - text: Read More
-        link_to: http://www.yeastwranglers.ca/roundup/The-Cowtown-Yeast-Wranglers-homebrew-club-is-proud-to-present-The-9th-annual-2017-Homebrew-Roundup.1.html
+      - text: Judge or Steward
+        link_to: http://yeastwranglers.brewcompetition.com/index.php?section=volunteers
 - background: assets/images/stock/bottle-caps.jpg
   title:
-    main: March Meeting
+    main: The 9th Annual CTYW Homebrew Roundup Awards Gala!
     sub: Get tickets
   buttons:
     items:
       - text: Buy
-        link_to: 'https://www.eventbrite.ca/e/village-brewery-march-meeting-tickets-32175449636'
+        link_to: 'https://www.eventbrite.ca/e/9th-annual-ctyw-homebrew-roundup-awards-gala-tickets-32728038444'
 - background: assets/images/stock/refreshing-beer.jpg
   title:
     main: Support the Club
