@@ -2,19 +2,11 @@
 - background: assets/images/stock/hops-1405519.jpg
   title:
     main: The 9th Annual 2017 Homebrew Roundup
-    sub: Volunteer
+    sub: The Results are In
   buttons:
     items:
-      - text: Judge or Steward
-        link_to: http://yeastwranglers.brewcompetition.com/index.php?section=volunteers
-- background: assets/images/stock/bottle-caps.jpg
-  title:
-    main: The 9th Annual CTYW Homebrew Roundup Awards Gala!
-    sub: Get tickets
-  buttons:
-    items:
-      - text: Buy
-        link_to: 'https://www.eventbrite.ca/e/9th-annual-ctyw-homebrew-roundup-awards-gala-tickets-32728038444'
+      - text: View
+        link_to: http://yeastwranglers.brewcompetition.com/
 - background: assets/images/stock/refreshing-beer.jpg
   title:
     main: Support the Club
