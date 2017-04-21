@@ -11,7 +11,7 @@
 ## To get started
 
 ```sh
-$ gulp
+$ npm start
 ```
 
 And you'll have a new Jekyll site generated for you and displayed in your
@@ -50,6 +50,12 @@ $ gulp deploy
 ```
 
 Your changes are now live. Double neato.
+
+### Build & Deploy
+
+```sh
+$ npm run-script deploy
+```
 
 # Content
 
