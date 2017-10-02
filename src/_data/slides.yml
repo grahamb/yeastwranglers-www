@@ -1,12 +1,12 @@
 
-- background: assets/images/stock/hops-1405519.jpg
-  title:
-    main: The 9th Annual 2017 Homebrew Roundup
-    sub: The Results are In
-  buttons:
-    items:
-      - text: View
-        link_to: http://yeastwranglers.brewcompetition.com/
+# - background: assets/images/stock/hops-1405519.jpg
+#   title:
+#     main: The 9th Annual 2017 Homebrew Roundup
+#     sub: The Results are In
+#   buttons:
+#     items:
+#       - text: View
+#         link_to: http://yeastwranglers.brewcompetition.com/
 - background: assets/images/stock/refreshing-beer.jpg
   title:
     main: Support the Club

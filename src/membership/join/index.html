@@ -14,6 +14,9 @@ section_id: join
 </div>
 
 <div class="full">
+  <div id='payment-success' style="display: none;" class="alert-box success text-center">
+    Thank you for your payment! Please ensure you have also filled out the membership form. Your Membership card will avaliable at monthly meetings or at the Vineyard.
+  </div>
   {% include membership-types.html %}
 </div>
 
@@ -21,8 +24,24 @@ section_id: join
   <div class='row'>
     <div class='tweleve columns'>
       <div class="alert-box warning text-center">
-        Please pay via PayPal <strong>AND</strong> fill out the form below.
+        Please fill out the membership form below <strong>AND</strong> pay via PayPal.
       </div>
+    </div>
+  </div>
+
+  <div id='membership-form' class='row'>
+
+    <div class='medium-8 medium-centered columns'>
+      <div class='form'>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScMLYKSr1p2y8f2dDQu1rLSOOueahNPzV9d95SkjyE-bA3eKA/viewform?embedded=true"
+          width="100%" height="2200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      </div>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='medium-8 medium-centered text-center columns'>
+      <p><strong>AND</strong></p>
     </div>
   </div>
   <div class="row">
@@ -30,16 +49,16 @@ section_id: join
       <div class="panel text-center">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="AAEL3YD6SWT2Y">
+          <input type="hidden" name="hosted_button_id" value="D8A4K4X2WCLHW">
           <table>
             <tr>
-              <td><input type="hidden" name="on0" value="Pick Membership type from Dropdown">Pick Membership type from Dropdown</td>
+              <td><input type="hidden" name="on0" value="Membership Type">Membership Type</td>
             </tr>
             <tr>
               <td>
                 <select name="os0">
-                  <option value="2017 Single Member">2017 Single Member $30.00 CAD</option>
-                  <option value="2017 Family Members (up to 4)">2017 Family Members (up to 4) $50.00 CAD</option>
+                  <option value="2017 .5 year Single Membership">2017 .5 year Single Membership $15.00 CAD</option>
+                  <option value="2017 .5 year Family Membership">2017 .5 year Family Membership $25.00 CAD</option>
                 </select>
               </td>
             </tr>
@@ -49,24 +68,6 @@ section_id: join
           <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
       </div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='medium-8 medium-centered text-center columns'>
-      <p><strong>AND</strong></p>
-    </div>
-  </div>
-  <div id='membership-form' class='row'>
-    <div class='medium-8 medium-centered columns'>
-      <div id='payment-success' style="display: none;" class="alert-box success text-center">
-        Thank you for your payment. Please fill out the following form to complete your membership.
-      </div>
-    </div>
-    <div class='medium-8 medium-centered columns'>
-      <div class='form'>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScMLYKSr1p2y8f2dDQu1rLSOOueahNPzV9d95SkjyE-bA3eKA/viewform?embedded=true" width="100%" height="2200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-      </div>
-      <div class='two spacing'></div>
     </div>
   </div>
 </div>
