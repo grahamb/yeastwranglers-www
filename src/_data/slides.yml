@@ -6,6 +6,14 @@
 #     items:
 #       - text: View
 #         link_to: http://yeastwranglers.brewcompetition.com/
+- background: assets/images/stock/refreshing-beer.jpg
+  title:
+    main: Renew or Join
+    sub: Do it
+  buttons:
+    items:
+      - text: <i class="fa fa-user-plus"></i> Join or Renew
+        link_to: /membership/join/
 - background: assets/images/stock/cheers.jpg
   title:
     main: Check the Calendar
@@ -14,14 +22,6 @@
     items:
       - text: <i class="fa fa-user-plus"></i> Monthly Meetings
         link_to: '/calendar/'
-- background: assets/images/stock/refreshing-beer.jpg
-  title:
-    main: Support the Club
-    sub: Do it
-  buttons:
-    items:
-      - text: <i class="fa fa-user-plus"></i> Join or Renew
-        link_to: /membership/join/
 - background: assets/images/stock/bottle-caps.jpg
   title:
     main: Join the forum
