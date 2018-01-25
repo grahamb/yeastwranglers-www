@@ -34,5 +34,3 @@ Total ~21-36 IBU
 * Belgian Ardennes or other Belgian as appropriate
 
 OG: 1.045  FG:1.010 ~4.8% ABV 
-
-The beer turned out a little more bitter than I normally make, so I gave a range for the initial bittering.
