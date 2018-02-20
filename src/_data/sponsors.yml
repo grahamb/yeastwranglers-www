@@ -84,6 +84,12 @@
     socials:
       - link: http://midtownkitchen.ca/
         icon: link
+  - image: /assets/images/sponsors/RockyMountain.png
+    name: Rocky Mountain Wine, Spirits & Beer
+    benefit: 10% discount
+    socials:
+      - link: https://rockymountainwinespiritsbeer.com/
+        icon: link
 - benefitonly:
   - name: Great Canadian Beer Festival
     benefit: Club purchase of tickets
