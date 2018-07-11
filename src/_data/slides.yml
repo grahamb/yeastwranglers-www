@@ -1,3 +1,11 @@
+- background: assets/images/stock/hops-1405519.jpg
+  title:
+    main: Summer BBQ
+    sub: beer, bbq, camping
+  buttons:
+    items:
+      - text: I want beer & bbq
+        link_to: 'https://www.eventbrite.ca/e/ctyw-summer-bbq-tickets-47876682446'
 - background: assets/images/stock/cheers.jpg
   title:
     main: Check the Calendar
