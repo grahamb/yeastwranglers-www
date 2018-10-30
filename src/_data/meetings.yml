@@ -53,8 +53,9 @@
   type: Monthly Meeting
   time: 8PM
 - month: November 7th 2018
-  location: SAIT of Cookbook Co.
-  topic: Cooking with Beer
+  location: The Vineyard
+  location_url: https://goo.gl/maps/gvKYTHiMpxu
+  topic: All About Yeast. Starters, setting up a home-lab. 
   type: Monthly Meeting
   time: 8PM
 - month: December 5th 2018
