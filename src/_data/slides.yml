@@ -1,10 +1,18 @@
+- background: assets/images/stock/christmas.jpg
+  title:
+    main: Christmas Social
+    sub: hohoho
+  buttons:
+    items:
+      - text: See Details
+        link_to: '/monthly%20meetings/The-Christmas-Social.html'
 - background: assets/images/stock/cheers.jpg
   title:
     main: Check the Calendar
     sub: get social
   buttons:
     items:
-      - text: <i class="fa fa-user-plus"></i> Monthly Meetings
+      - text: Monthly Meetings
         link_to: '/calendar/'
 - background: assets/images/stock/refreshing-beer.jpg
   title:
