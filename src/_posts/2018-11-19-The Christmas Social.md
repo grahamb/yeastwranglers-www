@@ -6,9 +6,9 @@ author: Chris van der Ploeg
 category: "Monthly Meetings"
 excerpt: Christmas is Coming
 ---
-This years Christmas Social will be at <a href="https://www.innercitybrewing.ca/" target="_blank">Inner City Brewing</a> starting at 7:30 on December 5th.  
+This year's Christmas Social will be at <a href="https://www.innercitybrewing.ca/" target="_blank">Inner City Brewing</a> starting at 7:30 on December 5th.  
 
-The club will buy your first beer (get a ticket when you come in), and we will run a cash bar from there. Please remeber to pay your bill before you leave, and tip your bartender. We will be providing finger food and the brewery allows outside food if you are more than finger food hungry.
+The club will buy your first beer (get a ticket when you come in), and we will run a cash bar from there. Please remember to pay your bill before you leave, and tip your bartender. We will be providing finger food and the brewery allows outside food if you are more than finger food hungry.
 
 __Please note:__
 
