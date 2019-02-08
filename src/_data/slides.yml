@@ -1,19 +1,11 @@
-- background: assets/images/stock/christmas.jpg
+- background: assets/images/stock/hops-1405519.jpg
   title:
-    main: Christmas Social
-    sub: hohoho
+    main: The 11th Annual 2019 Homebrew Roundup
+    sub: Get Judged
   buttons:
     items:
-      - text: See Details
-        link_to: '/monthly%20meetings/The-Christmas-Social.html'
-- background: assets/images/stock/cheers.jpg
-  title:
-    main: Check the Calendar
-    sub: get social
-  buttons:
-    items:
-      - text: Monthly Meetings
-        link_to: '/calendar/'
+      - text: Volunteer
+        link_to: http://yeastwranglers.brewcompetition.com/
 - background: assets/images/stock/refreshing-beer.jpg
   title:
     main: Renew or Join
@@ -22,6 +14,14 @@
     items:
       - text: <i class="fa fa-user-plus"></i> Join or Renew
         link_to: /membership/join/
+- background: assets/images/stock/cheers.jpg
+  title:
+    main: Check the Calendar
+    sub: get social
+  buttons:
+    items:
+      - text: Monthly Meetings
+        link_to: '/calendar/'
 - background: assets/images/stock/bottle-caps.jpg
   title:
     main: Join the forum
