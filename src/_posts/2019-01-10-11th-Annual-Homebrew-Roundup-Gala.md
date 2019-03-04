@@ -7,6 +7,10 @@ category: "Roundup"
 excerpt: "The Cowtown Yeast Wranglers homebrew club is proud to present: The 11th Annual 2019 Homebrew Roundup!"
 ---
 
+Gala Tickets now available
+
+<a class='button' href='https://www.eventbrite.ca/e/11th-annual-ctyw-homebrew-roundup-awards-gala-tickets-56356241034' target='_blank'>Buy</a>
+
 The Cowtown Yeast Wranglers homebrew club is proud to present: <a href='http://yeastwranglers.brewcompetition.com/' target='_blank'>The 11th Annual 2019 Homebrew Roundup!</a>
 
 We welcome entries of beer, mead, and cider from home brewers across Canada.
