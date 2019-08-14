@@ -1,19 +1,19 @@
-- background: assets/images/stock/bottle-caps.jpg
-  title:
-    main: Make the Monthly Meetings Better
-    sub: Be Heard
-  buttons:
-    items:
-      - text: Take the Survey
-        link_to: 'https://www.surveymonkey.com/r/HDXRB88'
-- background: assets/images/stock/hops-1405519.jpg
-  title:
-    main: The 11th Annual 2019 Homebrew Roundup
-    sub: Get The Results
-  buttons:
-    items:
-      - text: Results
-        link_to: '/roundup/11th-Annual-Homebrew-Roundup-Results.html'
+# - background: assets/images/stock/bottle-caps.jpg
+#   title:
+#     main: Make the Monthly Meetings Better
+#     sub: Be Heard
+#   buttons:
+#     items:
+#       - text: Take the Survey
+#         link_to: 'https://www.surveymonkey.com/r/HDXRB88'
+# - background: assets/images/stock/hops-1405519.jpg
+#   title:
+#     main: The 11th Annual 2019 Homebrew Roundup
+#     sub: Get The Results
+#   buttons:
+#     items:
+#       - text: Results
+#         link_to: '/roundup/11th-Annual-Homebrew-Roundup-Results.html'
 - background: assets/images/stock/refreshing-beer.jpg
   title:
     main: Renew or Join
