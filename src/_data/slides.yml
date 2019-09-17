@@ -14,6 +14,14 @@
 #     items:
 #       - text: Results
 #         link_to: '/roundup/11th-Annual-Homebrew-Roundup-Results.html'
+- background: assets/images/stock/hops-1405519.jpg
+  title:
+    main: CTYW First Annual (hopefully) Oktoberfest!
+    sub: Prost!
+  buttons:
+    items:
+      - text: Get Tickets
+        link_to: '/events/CTYW-First-Annual-hopefully-Oktoberfest.html'
 - background: assets/images/stock/refreshing-beer.jpg
   title:
     main: Renew or Join

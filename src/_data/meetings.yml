@@ -44,11 +44,28 @@
   type: Monthly Meeting
   time: 8PM
 - month: October 2nd 2019
-  location: TBD
+  location: SunnyCider
+  location_url: https://g.page/SunnyCider?share
+  topic: Discussion on all things cider!
   type: Monthly Meeting
   time: 8PM
+- month: October 5th 2019 
+  time: 4PM-8PM
+  location: Hillhurst Sunnyside
+  type: Oktoberfest 
+  topic: Festbier/Märzen competition fan favourite vote
+  tickets: https://www.eventbrite.ca/e/ctyw-first-annual-hopefully-oktoberfest-tickets-73163324473
+- month: October 30th 2019
+  time: 8PM
+  location: Cabin Brewing
+  location_url: https://g.page/cabinbrewing?share
+  type: Bonus Meeting
+  topic: Kveik discussion with Chris Saunders from Escarpment Labs
 - month: November 6th 2019
-  location: TBD
+  location: Canyon Glen
+  location_url: http://www.yeastwranglers.ca/monthly%20meetings/Getting-to-and-Parking-at-Canyon-Glen.html
+  Type: Monthly Meeting
+  topic: Iron Brewer competition fan favourite vote
   type: Monthly Meeting
   time: 8PM
 - month: December 4th 2019
