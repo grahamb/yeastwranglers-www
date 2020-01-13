@@ -16,6 +16,12 @@ const sourcemaps = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify');
 const when = require('gulp-if');
 
+gulp.task('documents', () =>
+  gulp.src('src/assets/documents/**/*')
+    .pipe(gulp.dest('.tmp/assets/documents'))
+    .pipe(size({title: 'documents'}))
+);
+
 // 'gulp scripts' -- creates a index.js file from your JavaScript files and
 // creates a Sourcemap for it
 // 'gulp scripts --prod' -- creates a index.js file from your JavaScript files,

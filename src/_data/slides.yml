@@ -1,11 +1,11 @@
-# - background: assets/images/stock/bottle-caps.jpg
-#   title:
-#     main: Make the Monthly Meetings Better
-#     sub: Be Heard
-#   buttons:
-#     items:
-#       - text: Take the Survey
-#         link_to: 'https://www.surveymonkey.com/r/HDXRB88'
+- background: assets/images/stock/bottle-caps.jpg
+  title:
+    main: Wort Competition
+    sub: Lord of Wort
+  buttons:
+    items:
+      - text: Get Tickets
+        link_to: 'https://www.showpass.com/lord-of-the-wort/'
 # - background: assets/images/stock/hops-1405519.jpg
 #   title:
 #     main: The 11th Annual 2019 Homebrew Roundup
@@ -14,14 +14,14 @@
 #     items:
 #       - text: Results
 #         link_to: '/roundup/11th-Annual-Homebrew-Roundup-Results.html'
-- background: assets/images/stock/hops-1405519.jpg
-  title:
-    main: CTYW First Annual (hopefully) Oktoberfest!
-    sub: Prost!
-  buttons:
-    items:
-      - text: Get Tickets
-        link_to: '/events/CTYW-First-Annual-hopefully-Oktoberfest.html'
+# - background: assets/images/stock/hops-1405519.jpg
+#   title:
+#     main: CTYW First Annual (hopefully) Oktoberfest!
+#     sub: Prost!
+#   buttons:
+#     items:
+#       - text: Get Tickets
+#         link_to: '/events/CTYW-First-Annual-hopefully-Oktoberfest.html'
 - background: assets/images/stock/refreshing-beer.jpg
   title:
     main: Renew or Join

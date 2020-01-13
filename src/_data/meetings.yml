@@ -1,60 +1,60 @@
-- location: Cabin Brewing Company
-  location_url: https://www.cabinbrewing.ca/
-  month: January 9th 2019
-  type: Monthly Meeting
-  time: 8PM
-- month: February 6th 2019
-  location: The Establishment Brewing Company
-  location_url: https://establishmentbrewing.ca/
-  type: Monthly Meeting
-  time: 8PM
-- month: March 6th 2019
-  location: The Vineyard
-  location_url: https://goo.gl/maps/gvKYTHiMpxu
-  type: Monthly Meeting
-  time: 8PM
-- month: April 3rd 2019
-  location: Bow River Brewing
-  location_url: https://goo.gl/maps/7p4MPuyp5T72
-  type: Monthly Meeting
-  time: 8PM
-- month: May 1st 2019
-  location: Canyon Glen Recreation Center
-  location_url: /monthly%20meetings/Getting-to-and-Parking-at-Canyon-Glen.html
-  type: Monthly Meeting
-  time: 8PM
-- month: June 5th 2019
-  location: Canyon Glen Recreation Center
-  location_url: /monthly%20meetings/Getting-to-and-Parking-at-Canyon-Glen.html
-  type: Monthly Meeting
-  time: 8PM
-- month: July 20th 2019
-  location: Barley Belt
-  type: Social
-  time: 12 noon
-  tickets: https://www.eventbrite.ca/e/ctyw-barley-belt-walk-tickets-65265813806
-- month: Saturday August 17th
-  location: Details will be emailed to signed up guests
-  time: 3PM
-  type: Summer BBQ
-  tickets: https://www.eventbrite.ca/e/return-of-the-ctyw-summer-bbq-tickets-67788472145
-- month: September 4th 2019
-  location: The Vineyard
-  location_url: https://goo.gl/maps/gvKYTHiMpxu
-  type: Monthly Meeting
-  time: 8PM
-- month: October 2nd 2019
-  location: SunnyCider
-  location_url: https://g.page/SunnyCider?share
-  topic: Discussion on all things cider!
-  type: Monthly Meeting
-  time: 8PM
-- month: October 5th 2019 
-  time: 4PM-8PM
-  location: Hillhurst Sunnyside
-  type: Oktoberfest 
-  topic: Festbier/Märzen competition fan favourite vote
-  tickets: https://www.eventbrite.ca/e/ctyw-first-annual-hopefully-oktoberfest-tickets-73163324473
+# - location: Cabin Brewing Company
+#   location_url: https://www.cabinbrewing.ca/
+#   month: January 9th 2019
+#   type: Monthly Meeting
+#   time: 8PM
+# - month: February 6th 2019
+#   location: The Establishment Brewing Company
+#   location_url: https://establishmentbrewing.ca/
+#   type: Monthly Meeting
+#   time: 8PM
+# - month: March 6th 2019
+#   location: The Vineyard
+#   location_url: https://goo.gl/maps/gvKYTHiMpxu
+#   type: Monthly Meeting
+#   time: 8PM
+# - month: April 3rd 2019
+#   location: Bow River Brewing
+#   location_url: https://goo.gl/maps/7p4MPuyp5T72
+#   type: Monthly Meeting
+#   time: 8PM
+# - month: May 1st 2019
+#   location: Canyon Glen Recreation Center
+#   location_url: /monthly%20meetings/Getting-to-and-Parking-at-Canyon-Glen.html
+#   type: Monthly Meeting
+#   time: 8PM
+# - month: June 5th 2019
+#   location: Canyon Glen Recreation Center
+#   location_url: /monthly%20meetings/Getting-to-and-Parking-at-Canyon-Glen.html
+#   type: Monthly Meeting
+#   time: 8PM
+# - month: July 20th 2019
+#   location: Barley Belt
+#   type: Social
+#   time: 12 noon
+#   tickets: https://www.eventbrite.ca/e/ctyw-barley-belt-walk-tickets-65265813806
+# - month: Saturday August 17th
+#   location: Details will be emailed to signed up guests
+#   time: 3PM
+#   type: Summer BBQ
+#   tickets: https://www.eventbrite.ca/e/return-of-the-ctyw-summer-bbq-tickets-67788472145
+# - month: September 4th 2019
+#   location: The Vineyard
+#   location_url: https://goo.gl/maps/gvKYTHiMpxu
+#   type: Monthly Meeting
+#   time: 8PM
+# - month: October 2nd 2019
+#   location: SunnyCider
+#   location_url: https://g.page/SunnyCider?share
+#   topic: Discussion on all things cider!
+#   type: Monthly Meeting
+#   time: 8PM
+# - month: October 5th 2019 
+#   time: 4PM-8PM
+#   location: Hillhurst Sunnyside
+#   type: Oktoberfest 
+#   topic: Festbier/Märzen competition fan favourite vote
+#   tickets: https://www.eventbrite.ca/e/ctyw-first-annual-hopefully-oktoberfest-tickets-73163324473
 - month: October 30th 2019
   time: 8PM
   location: Cabin Brewing
@@ -69,6 +69,40 @@
   type: Monthly Meeting
   time: 8PM
 - month: December 4th 2019
-  location: TBD
+  topic: Christmas Social
+  topic_url: /events/CTYW-Christmas-Social.html
+  location: Prairie Dog
+  location_url: https://g.page/prairiedogbeer?share
+  type: Monthly Meeting
+  time: 8PM
+- month: January 8th
+  topic: Extreme Beer panel discussion
+  location: The Vineyard
+  location_url: https://g.page/vineyardcalgary?share
+  type: Monthly Meeting
+  time: 8PM
+- month: January 25th 2020
+  topic: Lord of Wort
+  location: New Level Brewing
+  location_url: https://g.page/NewLevelBrewing?share
+  type: Wort Pickup
+  time: 8:30AM
+  tickets: https://www.showpass.com/lord-of-the-wort/
+- month: February 5th, 2020
+  topic: Brewery Visit
+  location: Outcast Brewing
+  location_url: https://g.page/OutcastBrewing?share
+  type: Monthly Meeting
+  time: 8PM
+- month: March 4th, 2020
+  topic: Sour Beer
+  location: The Vineyard 
+  location_url: https://g.page/vineyardcalgary?share
+  type: Monthly Meeting
+  time: 8PM
+- month: April 1st, 2020
+  topic: Lord of the Wort Fan Favourite Vote
+  location: Canyon Glen
+  location_url: /monthly%20meetings/Getting-to-and-Parking-at-Canyon-Glen.html
   type: Monthly Meeting
   time: 8PM
