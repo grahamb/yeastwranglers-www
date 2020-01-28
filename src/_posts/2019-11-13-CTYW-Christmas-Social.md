@@ -2,7 +2,7 @@
 layout: post
 title: "CTYW Christmas Social"
 date: 2019-11-13 08:20:12
-author: Daryll
+author: Darryl
 category: "Events"
 excerpt: "This year’s CTYW Christmas Social will be at PRAIRIE DOG BREWING starting at 8pm on Wednesday, December 4th. "
 ---
