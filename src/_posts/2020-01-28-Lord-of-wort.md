@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lord of the Wort Fan Favourite Meeting"
+title: "CANCELLED: Lord of the Wort Fan Favourite Meeting"
 date: 2020-01-28 08:20:12
 author: Darryl
 category: "Events"
@@ -9,7 +9,7 @@ excerpt: "Do you want to taste what the other brewers have entered into the Lord
 
 **Meeting Details**
 
-Date: **Wednesday April 1st**
+Date: CANCELLED
 
 Location: **[Canyon Glen Recreation Centre](http://www.yeastwranglers.ca/monthly%20meetings/Getting-to-and-Parking-at-Canyon-Glen.html)**
 

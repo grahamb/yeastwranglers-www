@@ -1,11 +1,11 @@
-- background: assets/images/stock/bottle-caps.jpg
-  title:
-    main: Wort Competition
-    sub: Lord of Wort
-  buttons:
-    items:
-      - text: Get Tickets
-        link_to: 'https://www.showpass.com/lord-of-the-wort/'
+# - background: assets/images/stock/bottle-caps.jpg
+#   title:
+#     main: 12th Annual CTYW Homebrew Roundup Awards Gala!
+#     sub: Get The Results
+#   buttons:
+#     items:
+#       - text: Get Tickets
+#         link_to: 'https://www.eventbrite.ca/e/12th-annual-ctyw-homebrew-roundup-awards-gala-tickets-94449150953'
 # - background: assets/images/stock/hops-1405519.jpg
 #   title:
 #     main: The 11th Annual 2019 Homebrew Roundup

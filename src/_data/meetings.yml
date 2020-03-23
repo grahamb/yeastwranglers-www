@@ -55,26 +55,26 @@
 #   type: Oktoberfest 
 #   topic: Festbier/Märzen competition fan favourite vote
 #   tickets: https://www.eventbrite.ca/e/ctyw-first-annual-hopefully-oktoberfest-tickets-73163324473
-- month: October 30th 2019
-  time: 8PM
-  location: Cabin Brewing
-  location_url: https://g.page/cabinbrewing?share
-  type: Bonus Meeting
-  topic: Kveik discussion with Chris Saunders from Escarpment Labs
-- month: November 6th 2019
-  location: Canyon Glen
-  location_url: http://www.yeastwranglers.ca/monthly%20meetings/Getting-to-and-Parking-at-Canyon-Glen.html
-  Type: Monthly Meeting
-  topic: Iron Brewer competition fan favourite vote
-  type: Monthly Meeting
-  time: 8PM
-- month: December 4th 2019
-  topic: Christmas Social
-  topic_url: /events/CTYW-Christmas-Social.html
-  location: Prairie Dog
-  location_url: https://g.page/prairiedogbeer?share
-  type: Monthly Meeting
-  time: 8PM
+# - month: October 30th 2019
+#   time: 8PM
+#   location: Cabin Brewing
+#   location_url: https://g.page/cabinbrewing?share
+#   type: Bonus Meeting
+#   topic: Kveik discussion with Chris Saunders from Escarpment Labs
+# - month: November 6th 2019
+#   location: Canyon Glen
+#   location_url: http://www.yeastwranglers.ca/monthly%20meetings/Getting-to-and-Parking-at-Canyon-Glen.html
+#   Type: Monthly Meeting
+#   topic: Iron Brewer competition fan favourite vote
+#   type: Monthly Meeting
+#   time: 8PM
+# - month: December 4th 2019
+#   topic: Christmas Social
+#   topic_url: /events/CTYW-Christmas-Social.html
+#   location: Prairie Dog
+#   location_url: https://g.page/prairiedogbeer?share
+#   type: Monthly Meeting
+#   time: 8PM
 - month: January 8th
   topic: Extreme Beer panel discussion
   location: The Vineyard
@@ -94,6 +94,13 @@
   location_url: https://g.page/OutcastBrewing?share
   type: Monthly Meeting
   time: 8PM
+- month: February 29th
+  topic: 12th Annual CTYW Homebrew Roundup Awards Gala!
+  location: Local 522 Public Tavern & Kitchen Ltd
+  location_url: https://goo.gl/maps/35b7VCtBPPmj8cm78
+  type: Awards Gala!
+  time: 6PM
+  tickets: https://www.eventbrite.ca/e/12th-annual-ctyw-homebrew-roundup-awards-gala-tickets-94449150953
 - month: March 4th, 2020
   topic: Sour Beer
   location: The Vineyard 
@@ -101,8 +108,8 @@
   type: Monthly Meeting
   time: 8PM
 - month: April 1st, 2020
-  topic: Lord of the Wort Fan Favourite Vote
-  topic_url: events/Lord-of-wort.html
+  topic: CANCELLED
+  topic_url: /events/Lord-of-wort.html
   location: Canyon Glen
   location_url: /monthly%20meetings/Getting-to-and-Parking-at-Canyon-Glen.html
   type: Monthly Meeting
