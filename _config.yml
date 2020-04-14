@@ -42,7 +42,7 @@ redcarpet:
 highlighter: true
 
 # Extending Jekyll
-gems:
+plugins:
   - jekyll-archives
   - jekyll-feed
   - jekyll-gist
